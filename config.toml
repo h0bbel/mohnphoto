@@ -141,7 +141,12 @@ paginate = 10
 	url  = "/"
 	weight = 10
 
-#[[menu.main]]
-#	name = "Blog"
-#	url  = "post/"
-#	weight = 0
+[[menu.main]]
+	name = "About"
+	url  = "about/"
+	weight = 20
+
+[[menu.main]]
+	name = "Archive"
+	url  = "archive/"
+	weight = 30
